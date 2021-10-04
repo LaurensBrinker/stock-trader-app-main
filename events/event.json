@@ -1,0 +1,13 @@
+{
+  "version": "0",
+  "id": "ee887ebe-aaf4-9fb0-34f9-07e32cd2955f",
+  "detail-type": "Scheduled Event",
+  "source": "aws.events",
+  "account": "560846014933",
+  "time": "2021-09-27T11:47:00Z",
+  "region": "eu-west-1",
+  "resources": [
+    "arn:aws:events:eu-west-1:560846014933:rule/workshop-sample-app-MinuteTradingScheduleB8F30707-JYETRL3INXP0"
+  ],
+  "detail": {}
+}
