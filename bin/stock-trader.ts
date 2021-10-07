@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { StockTraderStack } from '../lib/stock-trader-stack';
 
 const app = new cdk.App();
-new StockTraderStack(app, 'workshop-sample-app');
+new StockTraderStack(app, 'stock-trader-app');

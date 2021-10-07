@@ -127,7 +127,7 @@ export class StockTraderStack extends cdk.Stack {
     stockSellerFunction.grantInvoke(stockTradingStateMachine)
 
     // ###################################################
-    // Stock Trading tasks and state machine
+    // Stock Trading state machine schedule
     // ###################################################
     const stateMachineTarget = new SfnStateMachine(stockTradingStateMachine)
 
